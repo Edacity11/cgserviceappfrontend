@@ -6,9 +6,8 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-2by1">
-              <img :src="category.image" alt="Placeholder image" />
+              <img :src="category.image.url" alt="Placeholder image" />
             </figure>
-            <p> {{ category.image }} </p>
           </div>
           <div class="card-content">
             <div class="content">
