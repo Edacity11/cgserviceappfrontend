@@ -8,6 +8,7 @@
             <figure class="image is-2by1">
               <img :src="category.image.url" alt="Placeholder image" />
             </figure>
+            <p> {{ category.image.url }} </p>
           </div>
           <div class="card-content">
             <div class="content">
