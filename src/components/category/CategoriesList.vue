@@ -6,7 +6,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-2by1">
-              <img :src="category.image" alt="Placeholder image" />
+              <img :src="category.image_url" alt="Placeholder image" />
             </figure>
           </div>
           <div class="card-content">
